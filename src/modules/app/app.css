@@ -1,0 +1,30 @@
+.app {
+  text-align: center;
+  padding-block: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.no-select {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+h4 {
+  margin: 0px;
+}
+
+h5 {
+  margin: 0px;
+}
+
+p {
+  margin: 0px;
+  font-size: 12px;
+  margin-block: 6px;
+}

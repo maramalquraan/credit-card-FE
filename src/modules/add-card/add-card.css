@@ -1,0 +1,78 @@
+.container {
+  text-align: center;
+  background-color: white;
+  color: #14171a;
+  padding: 20px;
+  padding-inline: 40px;
+}
+
+#add-card-title {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.add-card-input {
+  width: 400px;
+  height: 30px;
+  border-width: 0px;
+  border-bottom-width: 1px;
+  border-bottom-color: #657786;
+  background-color: transparent;
+  color: #14171a;
+  font-size: 16px;
+  padding: 0px;
+  margin-top: 15px;
+}
+
+.add-card-input:active {
+  border-bottom-width: 1px;
+  border-bottom-color: #657786;
+  outline: none;
+}
+
+.add-card-input:focus {
+  border-bottom-width: 1px;
+  border-bottom-color: #657786;
+  outline: none;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#error-message {
+  text-align: start;
+  width: 100%;
+  color: red;
+  margin: 0px;
+  margin-top: 3px;
+  font-size: 12px;
+}
+
+#submit-btn {
+  height: 35px;
+  width: 85px;
+  margin-top: 17px;
+  padding: 0px;
+  border-width: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #3360ff;
+  margin-left: 10px;
+  color: white;
+}
+
+#submit-btn:hover {
+  cursor: pointer;
+}
+
+#submit-txt {
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0px;
+  margin-bottom: 3px;
+}

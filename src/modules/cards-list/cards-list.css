@@ -1,0 +1,23 @@
+#container {
+  width: 500px;
+  padding: 20px;
+  padding-inline: 40px;
+}
+
+#title {
+  text-align: start;
+  margin-bottom: 15px;
+}
+
+.card {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  text-align: start;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
